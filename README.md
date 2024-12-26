@@ -19,9 +19,26 @@ theme = base16-3024
 
 For usage with [Tinty]:
 
-_TBD_
+1. Add the following to your Ghostty config `~/.config/ghostty/config`:
 
-2. `tinty apply ...` to apply the theme you like.
+```
+theme = ~/.local/share/share/tinted-theming/tinty/tinted-ghostty-themes-file
+```
+
+2. Add the following to `~/.config/tinted-theming/tinty/config.toml`:
+
+   ```toml
+   [[items]]
+   path = "https://github.com/bezhermoso/tinted-ghostty"
+   name = "tinted-ghostty"
+   themes-dir = "themes"
+   supported-systems = ["base16"]
+   ```
+
+3. `tinty apply ...` to apply the theme you like.
+
+4. Trigger `reload_config` in Ghostty. The default keybinding for this are `Ctrl + Shift + ,` (`Cmd + Shift + ,` for
+   macOS)
 
 [Ghostty]: https://ghostty.org
 [Base16]: https://github.com/tinted-theming/home/blob/main/styling.md
