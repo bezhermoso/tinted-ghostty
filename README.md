@@ -11,7 +11,7 @@ Copy all the files in `themes/` into any of these directories:
 
 Ghostty recognizes files in these directories as themes that can be selected e.g.
 
-```toml
+```
 theme = base16-3024
 ```
 
