@@ -32,7 +32,7 @@ theme = ~/.local/share/share/tinted-theming/tinty/tinted-ghostty-themes-file
    path = "https://github.com/bezhermoso/tinted-ghostty"
    name = "tinted-ghostty"
    themes-dir = "themes"
-   supported-systems = ["base16"]
+   supported-systems = ["base16", "base24"]
    ```
 
 3. `tinty apply ...` to apply the theme you like.
